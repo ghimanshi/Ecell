@@ -40,6 +40,7 @@
     margin-left: 0%;
     overflow-x: scroll;
     scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 #speakersContainer::-webkit-scrollbar{
@@ -48,12 +49,12 @@
 
 .speakers{
     height:542px;
-    width: 285px;
+    width: 19.97vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     color: white;
-    margin-right:11.97vw;
+    margin-right:12vw;
 }
 #rightMost{
     margin-right:0;
@@ -65,14 +66,14 @@
     height:32px;
 }
 .timing p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "SSMD", sans-serif;
     font-size: 16px;
     padding-top:8px;
     padding-bottom: 8px;
 }
 
 .speakerName{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "SSRD", sans-serif;
     font-size: 32px;
     margin-top:8px;
     margin-bottom:8px;
@@ -80,7 +81,7 @@
 }
 
 .speakerDesignation{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "SSLD",sans-serif;
     font-size: 24px;
     padding-top: 4px ;
     padding-bottom:4px;
@@ -88,7 +89,7 @@
 }
 
 .talkDescription{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "SSRD",sans-serif;
     font-size: 24px;
     border-top: 1px solid white;
     padding-top: 12px;
@@ -105,16 +106,17 @@
 body{
     background-color: black;
 }
-.arrow1{
-    margin-left: 2.77vw;
-    margin-right:2.77vw;
-}
-.arrow2{
-    margin-left: 2.77vw;
-    margin-right:2.77vw;
-}
+
 #arrowContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+button{
+    max-height: fit-content;
+    max-width: fit-content;
+    margin-left: 2.77vw;
+    margin-right:2.77vw;
+    background-color: black;
 }
