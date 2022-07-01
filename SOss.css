@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "SSRD";
+    src: url(fonts/SequelSansRomanDisp.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SSMD";
+    src: url(fonts/SequelSansMediumDisp.ttf) format("truetype");
+
+}
+
+@font-face {
+    font-family: "SSLD";
+    src: url(fonts/SequelSansLightDisp.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "NEB";
+    src: url(fonts/NeutroEB.ttf) format("truetype");
+}
+
+
+
+
+#spekaersHeading{
+    color: white;
+    font-family: "NEB", sans-serif;
+    padding-left: 8.3vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 32px;
+}
+
+#speakersContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top: 68px;
+    margin-left: 0%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#speakersContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.speakers{
+    height:542px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    margin-right:11.97vw;
+}
+#rightMost{
+    margin-right:0;
+}
+.timing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:32px;
+}
+.timing p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+.speakerName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-top:8px;
+    margin-bottom:8px;
+    
+}
+
+.speakerDesignation{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding-top: 4px ;
+    padding-bottom:4px;
+    
+}
+
+.talkDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border-top: 1px solid white;
+    padding-top: 12px;
+    margin-top: 32px;
+
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+.arrow1{
+    margin-left: 2.77vw;
+    margin-right:2.77vw;
+}
+.arrow2{
+    margin-left: 2.77vw;
+    margin-right:2.77vw;
+}
+#arrowContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
